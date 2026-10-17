@@ -43,6 +43,8 @@ Gerätetabellen (developer.amazon.com, Stand 16.10.):
 
 ### Gut zu wissen
 
+- **Der erste Import lädt alles vollständig.** Nach dem Anlegen einer Quelle lädt Primio Sender, Filme, Serien und das
+  TV-Programm komplett; die Seite zeigt dabei den Fortschritt. Je nach Anbieter dauert das einige Minuten.
 - **Die Suche findet Wortanfänge.** „Tat" findet „Tatort", „ort" findet es nicht.
 - **Aufnahmen liegen im Speicher der App und werden beim Deinstallieren gelöscht.** Deshalb neue Versionen immer
   drüber installieren (siehe „Neue Version").

@@ -41,6 +41,8 @@ specifications (developer.amazon.com, as of 16 October):
 
 ### Good to know
 
+- **The first import loads everything.** After you add a source, Primio loads channels, films, series and the TV guide
+  in full; the page shows the progress. Depending on your provider, this takes a few minutes.
 - **Search finds the beginnings of words.** "Tat" finds "Tatort", "ort" does not.
 - **Recordings are stored in the app's memory and are deleted when you uninstall.** So always install new versions
   over the old one (see "New version").

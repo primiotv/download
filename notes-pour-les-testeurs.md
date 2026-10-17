@@ -45,6 +45,9 @@ fiches techniques d’Amazon (developer.amazon.com, état au 16/10) :
 
 ### Bon à savoir
 
+- **La première importation charge tout.** Après l’ajout d’une source, Primio charge entièrement les chaînes, les
+  films, les séries et le programme TV ; la page affiche la progression. Selon le fournisseur, cela prend quelques
+  minutes.
 - **La recherche trouve les débuts de mots.** «  Tat  » trouve «  Tatort  », «  ort  » ne le trouve pas.
 - **Les enregistrements sont stockés dans la mémoire de l’application et sont supprimés lors de la désinstallation.**
   Installez donc toujours les nouvelles versions par-dessus (voir «  Nouvelle version  »).

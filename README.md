@@ -12,15 +12,15 @@ Downloader-App: Code 9316224 · Downloader app: code 9316224
 
 https://github.com/primiotv/download/releases/latest/download/primio.apk
 
-SHA-256: `3366574d735222dfde8341976c5e12be705750c852ec739ab4175d5bdf591f5d`
+SHA-256: `10f0916cb2adfce621da5ef7b7a252996872111bc2f9179eacb50d04d5880ca2`
 
-Version: 0.1.0-w5+a335d399 (versionCode 578) · Testversion, läuft 7 Tage ab dem ersten Start · test version, runs for 7 days from its first start
+Version: 0.1.0-w5+dbc805b7 (versionCode 585) · Testversion, läuft 7 Tage ab dem ersten Start · test version, runs for 7 days from its first start
 
 ## Testerhinweise · Tester notes
 
-- [Deutsch](TESTERHINWEISE-de.md)
-- [Français](TESTERHINWEISE-fr.md)
-- [English](TESTERHINWEISE-en.md)
-- [العربية](TESTERHINWEISE-ar.md)
+- [Deutsch](testerhinweise.md)
+- [Français](notes-pour-les-testeurs.md)
+- [English](tester-notes.md)
+- [العربية](notes-pour-les-testeurs-arabe.md)
 
 Kontakt · Contact: info@primio.tv
