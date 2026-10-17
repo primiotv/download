@@ -30,6 +30,8 @@ au préalable. Vos sources, favoris et enregistrements sont ainsi conservés.
 
 ### Appareils
 
+**Uniquement pour les appareils TV avec télécommande. Les smartphones et les tablettes ne sont pas encore pris en charge.**
+
 Primio nécessite **Android TV / Google TV à partir d’Android 8.0** ou **Fire TV à partir de Fire OS 7**. Noms selon les
 fiches techniques d’Amazon (developer.amazon.com, état au 16/10) :
 

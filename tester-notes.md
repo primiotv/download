@@ -27,6 +27,8 @@ sources, favourites and recordings are kept.
 
 ### Devices
 
+**Only for TV devices with a remote control. Smartphones and tablets are not supported yet.**
+
 Primio needs **Android TV / Google TV from Android 8.0** or **Fire TV from Fire OS 7**. Names as in Amazon's device
 specifications (developer.amazon.com, as of 16 October):
 

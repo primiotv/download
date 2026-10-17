@@ -29,6 +29,8 @@ deinstallieren. Dann bleiben deine Quellen, Favoriten und Aufnahmen erhalten.
 
 ### Geräte
 
+**Nur für TV-Geräte mit Fernbedienung. Smartphones und Tablets werden noch nicht unterstützt.**
+
 Primio braucht **Android TV / Google TV ab Android 8.0** oder **Fire TV ab Fire OS 7**. Namen nach Amazons
 Gerätetabellen (developer.amazon.com, Stand 16.10.):
 
