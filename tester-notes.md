@@ -79,7 +79,9 @@ apps have it **on the left**. Which do you prefer, and why?
 
 ### What is sent when Primio crashes
 
+**On the first start Primio asks whether crash reports and usage statistics may be sent; both are optional and can be changed in the settings.**
+
 On the first start Primio asks whether it may send a report if it crashes. If you allow it, only the error, the device
 model and the Android and app versions go to a service in the EU (Sentry). Login details, server addresses and your IP
-address are never sent. You can change this at any time under Settings → Appearance → "Send crash reports". Without
+address are never sent. You can change this at any time under Settings → Diagnostic data. Without
 your permission Primio sends nothing; crashes then only appear in the diagnostics report you export yourself.

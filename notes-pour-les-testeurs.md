@@ -86,9 +86,11 @@ barre **en haut**. D’autres applications le placent **à gauche**. Que préfé
 
 ### Données envoyées en cas de plantage
 
+**Au premier démarrage, Primio demande si des rapports de plantage et des statistiques d’utilisation peuvent être envoyés ; les deux sont facultatifs et modifiables dans les paramètres.**
+
 Au premier démarrage, Primio demande s’il peut envoyer un rapport en cas de plantage. Si vous l’autorisez, seuls
 l’erreur, le modèle de l’appareil et les versions d’Android et de l’application sont envoyés à un service situé dans
 l’UE (Sentry). Vos identifiants, les adresses des serveurs et votre adresse IP ne sont jamais envoyés. Vous pouvez
-modifier ce choix à tout moment dans Paramètres → Apparence → « Envoyer les rapports de plantage ». Sans
+modifier ce choix à tout moment dans Paramètres → Données de diagnostic. Sans
 autorisation, Primio n’envoie rien ; les plantages figurent alors uniquement dans le rapport de diagnostic que vous
 exportez vous-même.

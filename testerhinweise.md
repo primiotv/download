@@ -81,8 +81,9 @@ Apps haben es **links**. Was ist dir lieber, und warum?
 
 ### Was bei Abstürzen gesendet wird
 
+**Primio fragt beim ersten Start, ob Absturzberichte und eine Nutzungsstatistik gesendet werden dürfen; beides ist freiwillig und in den Einstellungen änderbar.**
+
 Beim ersten Start fragt Primio, ob es bei einem Absturz einen Bericht senden darf. Erlaubst du es, gehen nur der
 Fehler, das Gerätemodell und die Android- und App-Version an einen Dienst in der EU (Sentry). Zugangsdaten,
-Serveradressen und deine IP-Adresse werden nie gesendet. Umstellen kannst du das jederzeit unter Einstellungen →
-Darstellung → „Absturzberichte senden“. Ohne Erlaubnis sendet Primio nichts; Abstürze stehen dann nur im
+Serveradressen und deine IP-Adresse werden nie gesendet. Umstellen kannst du das jederzeit unter Einstellungen → Diagnosedaten. Ohne Erlaubnis sendet Primio nichts; Abstürze stehen dann nur im
 Diagnosebericht, den du selbst exportierst.
