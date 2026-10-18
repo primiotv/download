@@ -27,6 +27,9 @@ Version“).
 Die neue Version **über die alte drüber** installieren (wie oben, mit demselben Code 9316224), **nicht** vorher
 deinstallieren. Dann bleiben deine Quellen, Favoriten und Aufnahmen erhalten.
 
+Ab dieser Version meldet Primio neue Versionen selbst. Wähle dann „Jetzt aktualisieren“; deine Quellen und Einstellungen
+bleiben erhalten. Wo das nicht geht, zeigt Primio den Downloader-Code 9316224.
+
 ### Geräte
 
 **Nur für TV-Geräte mit Fernbedienung. Smartphones und Tablets werden noch nicht unterstützt.**

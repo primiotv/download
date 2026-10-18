@@ -28,6 +28,9 @@ par-dessus (voir « Nouvelle version »).
 Installez la nouvelle version **par-dessus l’ancienne** (comme ci-dessus, avec le même code 9316224), **sans** désinstaller
 au préalable. Vos sources, favoris et enregistrements sont ainsi conservés.
 
+À partir de cette version, Primio vous signale lui-même les nouvelles versions. Choisissez alors « Mettre à jour » ;
+vos sources et paramètres sont conservés. Si ce n’est pas possible, Primio affiche le code Downloader 9316224.
+
 ### Appareils
 
 **Uniquement pour les appareils TV avec télécommande. Les smartphones et les tablettes ne sont pas encore pris en charge.**

@@ -25,6 +25,9 @@ Your sources, favourites and settings are kept — simply install the new versio
 Install the new version **over the old one** (as above, with the same code 9316224) — do **not** uninstall first. That way your
 sources, favourites and recordings are kept.
 
+From this version on, Primio tells you about new versions itself. Choose “Update now” – your sources and settings are
+kept. Where that isn’t possible, Primio shows the Downloader code 9316224.
+
 ### Devices
 
 **Only for TV devices with a remote control. Smartphones and tablets are not supported yet.**
