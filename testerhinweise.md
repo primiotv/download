@@ -5,10 +5,9 @@
 Primio ist ein Player für Fernsehen, Filme und Serien. Primio liefert keine Inhalte: Du bringst deine eigene Quelle mit
 (M3U-Liste oder Xtream-Zugang deines Anbieters).
 
-**Laufzeit:** Die Testversion läuft 7 Tage ab dem ersten Start. Einen Tag vorher sagt Primio Bescheid („Diese Testversion
-läuft morgen ab.“); danach zeigt Primio nur noch, wo es die neue Version gibt, und spielt nichts mehr ab. Deine Quellen,
-Favoriten und Einstellungen bleiben dabei erhalten — einfach die neue Version drüber installieren (siehe „Neue
-Version“).
+**Laufzeit:** Die Testversion läuft eine begrenzte Zeit. Primio sagt rechtzeitig Bescheid; danach zeigt Primio nur noch,
+wo es die neue Version gibt, und spielt nichts mehr ab. Deine Quellen, Favoriten und Einstellungen bleiben dabei
+erhalten — einfach die neue Version drüber installieren (siehe „Neue Version“).
 
 ### Installieren
 
