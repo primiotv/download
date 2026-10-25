@@ -1,0 +1,45 @@
+# Vorlage (Miro 25.10., Möglichkeit A): Miro legt diese Datei selbst über die GitHub-Webseite in primiotv/download an,
+# als .github/workflows/status-pruefen.yml — dann geht die Fehlermail an ihn. Kein Secret; die Schlüssel sind öffentlich.
+name: primio-status prüfen
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Beide Wege abrufen und prüfen
+        env:
+          MAIN_KEY: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEbBRMGxvEs8Asp+cnvCd2lzZA1KrcyRP51v1r/h6jje6qhr9gx6Dnlct3hhNTn1csAGxRT9orbjQ4C7S/K2iL+w==
+          RESERVE_KEY: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE39Q+wYRp7IRl/lSgKv711IDzPk25dtVo5BADpnBwVh8yl1gWg2g3AtYUQAXNqXK337sRnbgnbyZwTn5uLxtUfg==
+        run: |
+          set -euo pipefail
+          curl -sSf --max-time 30 -D status.h -o status.json https://status.tivi.dev/v1/status
+          curl -sSfL --max-time 30 -o github.json https://github.com/primiotv/download/raw/main/status.json
+          grep -qi '^cache-control: no-store' status.h || { echo "primio-status: Cache-Control fehlt"; exit 1; }
+          grep -qi '^date: ' status.h || { echo "primio-status: Date fehlt"; exit 1; }
+          cmp -s status.json github.json || { echo "Die Wege liefern verschiedene Listen"; exit 1; }
+          python3 - <<'PY'
+          import base64, json, os, subprocess, sys, time
+          e = json.load(open("status.json"))
+          assert set(e) == {"key", "payload", "signature"}, "Form key/payload/signature"
+          key = {"main": os.environ["MAIN_KEY"], "reserve": os.environ["RESERVE_KEY"]}[e["key"]]
+          open("pub.der", "wb").write(base64.b64decode(key))
+          open("payload", "wb").write(base64.b64decode(e["payload"]))
+          open("sig", "wb").write(base64.b64decode(e["signature"]))
+          subprocess.run(["openssl", "pkey", "-pubin", "-inform", "DER", "-in", "pub.der", "-out", "pub.pem"], check=True)
+          r = subprocess.run(["openssl", "dgst", "-sha256", "-verify", "pub.pem", "-signature", "sig", "payload"])
+          assert r.returncode == 0, "Signatur ungültig"
+          d = json.loads(open("payload", encoding="utf-8").read())
+          assert "timeNotAfter" in d, "timeNotAfter fehlt — neue Liste signieren"
+          left = (d["timeNotAfter"] - time.time() * 1000) / 86_400_000
+          assert left > 3, f"timeNotAfter in {left:.1f} Tagen — neue Liste signieren"
+          print(f"ok: Schlüssel {e['key']}, issuedAt {d['issuedAt']}, timeNotAfter in {left:.1f} Tagen")
+          PY
