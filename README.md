@@ -8,11 +8,13 @@ source, for example the M3U list or the Xtream login from your provider.
 
 ## Download
 
-**Deutsch** · Gerade gibt es hier keine Version zum Herunterladen. Die nächste erscheint in den kommenden Wochen, unter
-derselben Adresse und mit dem Downloader-Code 9316224.
+Downloader-App: Code 9316224 · Downloader app: code 9316224
 
-**English** · There is no version to download here right now. The next one will appear in the coming weeks, at the same
-address and with the Downloader code 9316224.
+https://github.com/primiotv/download/releases/latest/download/primio.apk
+
+SHA-256: `14a315d92eb0a61b8c73618c49453c5e321a3b36331ca6118e757784466af19f`
+
+Version: 0.1.0-w5+2ddc5401 (versionCode 799) · Testversion · test version
 
 ## Testerhinweise · Tester notes
 
