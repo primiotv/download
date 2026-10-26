@@ -29,6 +29,8 @@ deinstallieren. Dann bleiben deine Quellen, Favoriten und Aufnahmen erhalten.
 Ab dieser Version meldet Primio neue Versionen selbst. Wähle dann „Jetzt aktualisieren“; deine Quellen und Einstellungen
 bleiben erhalten. Wo das nicht geht, zeigt Primio den Downloader-Code 9316224.
 
+Beim ersten Update fragt Android, ob Primio Apps installieren darf. Erlaubst du es, schließt Android Primio unter Umständen. Öffne Primio dann wieder und warte etwa eine Minute: Das Update-Fenster kommt von selbst. Wähle noch einmal „Jetzt aktualisieren“.
+
 ### Geräte
 
 **Nur für TV-Geräte mit Fernbedienung. Smartphones und Tablets werden noch nicht unterstützt.**

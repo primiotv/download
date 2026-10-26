@@ -28,6 +28,8 @@ sources, favourites and recordings are kept.
 From this version on, Primio tells you about new versions itself. Choose “Update now” – your sources and settings are
 kept. Where that isn’t possible, Primio shows the Downloader code 9316224.
 
+The first time you update, Android asks whether Primio may install apps. If you allow it, Android may close Primio. Open Primio again and wait about a minute: the update window comes back by itself. Choose “Update now” again.
+
 ### Devices
 
 **Only for TV devices with a remote control. Smartphones and tablets are not supported yet.**

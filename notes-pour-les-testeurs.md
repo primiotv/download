@@ -30,6 +30,8 @@ au préalable. Vos sources, favoris et enregistrements sont ainsi conservés.
 À partir de cette version, Primio vous signale lui-même les nouvelles versions. Choisissez alors « Mettre à jour » ;
 vos sources et paramètres sont conservés. Si ce n’est pas possible, Primio affiche le code Downloader 9316224.
 
+Lors de la première mise à jour, Android demande si Primio peut installer des applications. Si vous l’autorisez, Android peut fermer Primio. Rouvrez Primio et patientez environ une minute : la fenêtre de mise à jour revient d’elle-même. Choisissez à nouveau « Mettre à jour ».
+
 ### Appareils
 
 **Uniquement pour les appareils TV avec télécommande. Les smartphones et les tablettes ne sont pas encore pris en charge.**
