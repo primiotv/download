@@ -66,6 +66,8 @@ fiches techniques d’Amazon (developer.amazon.com, état au 16/10) :
 - **Sur la page « Nom et accès », votre mot de passe est affiché en clair. N’en envoyez pas de photo, s’il vous
   plaît.**
 - Tout se commande avec la télécommande : flèches, OK, Retour. Un appui long sur OK ouvre un menu à de nombreux endroits.
+- **L’image saccade dans les scènes rapides ?** Réglez la fréquence d’affichage de votre boîtier sur 50 Hz dans
+  ses paramètres, par exemple 1080p 50 Hz ou 4K 50 Hz.
 
 ### Que signaler et comment
 

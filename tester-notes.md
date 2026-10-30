@@ -60,6 +60,8 @@ specifications (developer.amazon.com, as of 16 October):
   login". Primio checks the connection before saving.
 - **On the "Name and login" page your password is shown in plain text. Please do not send photos of it.**
 - Everything is operated with the remote: arrow keys, OK, Back. Holding OK opens a menu in many places.
+- **Picture stutters in fast scenes?** Set your box’s refresh rate to 50 Hz in its settings, for example 1080p 50 Hz
+  or 4K 50 Hz.
 
 ### What to report and how
 

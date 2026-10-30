@@ -61,6 +61,8 @@ Gerätetabellen (developer.amazon.com, Stand 16.10.):
   „Name und Zugangsdaten“. Primio prüft die Verbindung, bevor es speichert.
 - **Auf der Seite „Name und Zugangsdaten“ steht dein Passwort offen. Schick davon bitte keine Fotos.**
 - Bedient wird alles mit der Fernbedienung: Pfeiltasten, OK, Zurück. OK lang gedrückt öffnet an vielen Stellen ein Menü.
+- **Ruckelt das Bild bei schnellen Szenen?** Stell in den Einstellungen deiner Box die Bildwiederholrate auf 50 Hz,
+  zum Beispiel 1080p 50 Hz oder 4K 50 Hz.
 
 ### Was und wie du meldest
 
