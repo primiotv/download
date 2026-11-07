@@ -62,6 +62,23 @@ specifications (developer.amazon.com, as of 16 October):
 - Everything is operated with the remote: arrow keys, OK, Back. Holding OK opens a menu in many places.
 - **Picture stutters in fast scenes?** Set your box’s refresh rate to 50 Hz in its settings, for example 1080p 50 Hz
   or 4K 50 Hz.
+- **Favourite lists:** Create a new list under Settings › Profiles › “Favourite lists” › “New list”; that is also
+  where you manage all lists. In the player, OK on “Favourite” opens your lists; a tick adds or removes the channel.
+  Another way: hold OK on a channel › “Favourite lists” › “New list …”. Each list has its own entry in Live TV right
+  under “All”, with its number of channels. To change the order of a list, hold OK there › “Position and number” ›
+  “Move”.
+- **Full screen from a list:** If you start a channel from a favourite list, CH+ and CH−, the channel list (Left)
+  and Back stay in that list.
+- **Channel group:** On a list’s page, in “Add channels” and in the player, each channel shows its group next to
+  it, so channels with the same name are easy to tell apart.
+- **Moving:** In Live TV (hold OK on a channel › “Position and number” › “Move”) the channel jumps to its new place
+  at once again; in the last version this took a few seconds or did not work. “Restore the source’s order” (hold OK
+  on a group) also takes effect at once.
+- **Focus frame:** At the edge of a list, the frame around the selected item is no longer cut off.
+- **Coming back after a break:** If you were away for less than 15 minutes (the box’s home screen, standby), Primio
+  carries on where you were, unless the box closed Primio in the meantime; then Primio starts again. Only after a
+  longer break do the profile choice, PIN and start page come back.
+- **Settings take effect at once:** Every change applies the moment you make it.
 
 ### What to report and how
 
