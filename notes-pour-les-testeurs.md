@@ -68,6 +68,23 @@ fiches techniques d’Amazon (developer.amazon.com, état au 16/10) :
 - Tout se commande avec la télécommande : flèches, OK, Retour. Un appui long sur OK ouvre un menu à de nombreux endroits.
 - **L’image saccade dans les scènes rapides ?** Réglez la fréquence d’affichage de votre boîtier sur 50 Hz dans
   ses paramètres, par exemple 1080p 50 Hz ou 4K 50 Hz.
+- **Listes de favoris :** Créez une nouvelle liste dans Paramètres › Profils › « Listes de favoris » › « Nouvelle
+  liste » ; c’est aussi là que se gèrent toutes les listes. Dans le lecteur, OK sur « Favori » ouvre vos listes ;
+  une coche ajoute ou retire la chaîne. Autre possibilité : maintenez OK sur une chaîne › « Listes de favoris » ›
+  « Nouvelle liste… ». Chaque liste a sa propre entrée dans TV en direct, juste sous « Tous », avec son nombre de
+  chaînes. Pour changer l’ordre d’une liste, maintenez OK › « Position et numéro » › « Déplacer ».
+- **Plein écran depuis une liste :** Si vous lancez une chaîne depuis une liste de favoris, CH+ et CH−, la liste
+  des chaînes (Gauche) et Retour restent dans cette liste.
+- **Groupe de la chaîne :** Sur la page d’une liste, dans « Ajouter des chaînes » et dans le lecteur, le groupe
+  s’affiche à côté de la chaîne ; deux chaînes du même nom se distinguent ainsi.
+- **Déplacer :** Dans TV en direct (maintenez OK sur une chaîne › « Position et numéro » › « Déplacer »), la chaîne
+  passe de nouveau aussitôt à sa nouvelle place ; dans la dernière version, cela prenait quelques secondes ou ne
+  marchait pas. « Rétablir l’ordre de la source » (maintenez OK sur un groupe) s’applique aussi aussitôt.
+- **Cadre de sélection :** Au bord d’une liste, le cadre autour de l’élément choisi n’est plus coupé.
+- **Retour après une pause :** Si vous étiez absent moins de 15 minutes (écran d’accueil du boîtier, veille), Primio
+  reprend là où vous étiez, sauf si le boîtier a fermé Primio entre-temps ; Primio redémarre alors. Le choix du
+  profil, le code PIN et l’écran de démarrage ne reviennent qu’après une pause plus longue.
+- **Les paramètres s’appliquent aussitôt :** Chaque modification prend effet immédiatement.
 
 ### Que signaler et comment
 
