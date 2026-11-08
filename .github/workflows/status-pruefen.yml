@@ -1,5 +1,3 @@
-# Vorlage (Miro 25.10., Möglichkeit A): Miro legt diese Datei selbst über die GitHub-Webseite in primiotv/download an,
-# als .github/workflows/status-pruefen.yml — dann geht die Fehlermail an ihn. Kein Secret; die Schlüssel sind öffentlich.
 name: primio-status prüfen
 
 on:
@@ -12,17 +10,23 @@ permissions:
 
 jobs:
   pruefen:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 5
     steps:
       - name: Beide Wege abrufen und prüfen
         env:
           MAIN_KEY: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEbBRMGxvEs8Asp+cnvCd2lzZA1KrcyRP51v1r/h6jje6qhr9gx6Dnlct3hhNTn1csAGxRT9orbjQ4C7S/K2iL+w==
           RESERVE_KEY: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE39Q+wYRp7IRl/lSgKv711IDzPk25dtVo5BADpnBwVh8yl1gWg2g3AtYUQAXNqXK337sRnbgnbyZwTn5uLxtUfg==
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          curl -sSf --max-time 30 -D status.h -o status.json https://status.tivi.dev/v1/status
-          curl -sSfL --max-time 30 -o github.json https://github.com/primiotv/download/raw/main/status.json
+          holen() {
+            name="$1"; shift
+            code=$(curl -sS --retry 3 --retry-delay 20 --max-time 30 -w '%{http_code}' "$@") || code="kein Abruf"
+            if [ "$code" != "200" ]; then echo "primio-status: $name antwortet mit $code"; exit 1; fi
+          }
+          holen "status.tivi.dev" -D status.h -o status.json https://status.tivi.dev/v1/status
+          holen "GitHub" -o github.json -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github.raw+json" "https://api.github.com/repos/primiotv/download/contents/status.json?ref=main"
           grep -qi '^cache-control: no-store' status.h || { echo "primio-status: Cache-Control fehlt"; exit 1; }
           grep -qi '^date: ' status.h || { echo "primio-status: Date fehlt"; exit 1; }
           cmp -s status.json github.json || { echo "Die Wege liefern verschiedene Listen"; exit 1; }
