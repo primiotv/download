@@ -68,11 +68,19 @@ fiches techniques d’Amazon (developer.amazon.com, état au 16/10) :
 - Tout se commande avec la télécommande : flèches, OK, Retour. Un appui long sur OK ouvre un menu à de nombreux endroits.
 - **L’image saccade dans les scènes rapides ?** Réglez la fréquence d’affichage de votre boîtier sur 50 Hz dans
   ses paramètres, par exemple 1080p 50 Hz ou 4K 50 Hz.
-- **Listes de favoris :** Créez une nouvelle liste dans Paramètres › Profils › « Listes de favoris » › « Nouvelle
-  liste » ; c’est aussi là que se gèrent toutes les listes. Dans le lecteur, OK sur « Favori » ouvre vos listes ;
-  une coche ajoute ou retire la chaîne. Autre possibilité : maintenez OK sur une chaîne › « Listes de favoris » ›
-  « Nouvelle liste… ». Chaque liste a sa propre entrée dans TV en direct, juste sous « Tous », avec son nombre de
-  chaînes. Pour changer l’ordre d’une liste, maintenez OK › « Position et numéro » › « Déplacer ».
+- **Mon Primio :** En haut à gauche, avant « Accueil ». On y trouve Rappels, Ma liste, Historique et Listes de
+  favoris, avec « Changer de profil » en haut de la colonne. Ces éléments ne sont plus dans les Paramètres. Pour
+  effacer l’historique : Mon Primio › Historique.
+- **Listes de favoris :** Créez une nouvelle liste dans Mon Primio › Listes de favoris › « Nouvelle liste » ;
+  c’est aussi là que se gèrent toutes les listes. Dans le lecteur, OK sur « Favori » ouvre toujours le choix des
+  listes, même avec une seule liste, avec « Nouvelle liste… ». Dans TV en direct : maintenez OK sur une chaîne ›
+  « Listes de favoris », avec les listes et « Nouvelle liste… ».
+- **Couleur du profil :** Dans le profil principal, Paramètres › Profils › « Gérer les profils » › « Modifier »
+  sur votre profil › « Changer de couleur » ; dans un profil sans gestion, Paramètres › Profils › « Modifier mon
+  profil » › « Changer de couleur ». La couleur s’applique aussitôt, aussi à « Mon Primio » en haut à gauche. Un
+  nouveau profil reçoit sa couleur dès sa création.
+- **Cadres :** Dans le lecteur et dans les fenêtres des Paramètres, les boutons et le cadre autour de l’élément
+  choisi ne sont plus coupés. Si vous voyez encore quelque chose de coupé, dites-nous où.
 - **Plein écran depuis une liste :** Si vous lancez une chaîne depuis une liste de favoris, CH+ et CH−, la liste
   des chaînes (Gauche) et Retour restent dans cette liste.
 - **Groupe de la chaîne :** Sur la page d’une liste, dans « Ajouter des chaînes » et dans le lecteur, le groupe
