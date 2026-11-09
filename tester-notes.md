@@ -62,11 +62,18 @@ specifications (developer.amazon.com, as of 16 October):
 - Everything is operated with the remote: arrow keys, OK, Back. Holding OK opens a menu in many places.
 - **Picture stutters in fast scenes?** Set your box’s refresh rate to 50 Hz in its settings, for example 1080p 50 Hz
   or 4K 50 Hz.
-- **Favourite lists:** Create a new list under Settings › Profiles › “Favourite lists” › “New list”; that is also
-  where you manage all lists. In the player, OK on “Favourite” opens your lists; a tick adds or removes the channel.
-  Another way: hold OK on a channel › “Favourite lists” › “New list …”. Each list has its own entry in Live TV right
-  under “All”, with its number of channels. To change the order of a list, hold OK there › “Position and number” ›
-  “Move”.
+- **My Primio:** At the top left, before “Home”. Reminders, Watchlist, History and Favourite lists are there, with
+  “Switch profile” at the top of the column. These items are no longer in Settings. To clear your history, go to
+  My Primio › History.
+- **Favourite lists:** Create a new list under My Primio › Favourite lists › “New list”; that is also where you
+  manage all lists. In the player, OK on “Favourite” always opens the list choice, even with a single list, with
+  “New list …”. In Live TV: hold OK on a channel › “Favourite lists”, where you find the lists and “New list …”.
+- **Profile colour:** In the main profile, Settings › Profiles › “Manage profiles” › “Edit” on your profile ›
+  “Change colour”; in a profile without management, Settings › Profiles › “Edit my profile” › “Change colour”. The
+  colour applies at once, also to “My Primio” at the top left. A new profile gets its colour right when you create
+  it.
+- **Frames:** In the player and in the windows of Settings, buttons and the frame around the selected item are no
+  longer cut off. If you still see something cut off, tell us where.
 - **Full screen from a list:** If you start a channel from a favourite list, CH+ and CH−, the channel list (Left)
   and Back stay in that list.
 - **Channel group:** On a list’s page, in “Add channels” and in the player, each channel shows its group next to
