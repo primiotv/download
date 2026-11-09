@@ -63,11 +63,18 @@ Gerätetabellen (developer.amazon.com, Stand 16.10.):
 - Bedient wird alles mit der Fernbedienung: Pfeiltasten, OK, Zurück. OK lang gedrückt öffnet an vielen Stellen ein Menü.
 - **Ruckelt das Bild bei schnellen Szenen?** Stell in den Einstellungen deiner Box die Bildwiederholrate auf 50 Hz,
   zum Beispiel 1080p 50 Hz oder 4K 50 Hz.
-- **Favoritenlisten:** Eine neue Liste legst du unter Einstellungen › Profile › „Favoritenlisten“ › „Neue Liste“
-  an; dort verwaltest du auch alle Listen. Im Player öffnet OK auf „Favorit“ deine Listen; ein Häkchen setzt oder
-  nimmt den Sender. Ein weiterer Weg: OK lang auf einem Sender › „Favoritenlisten“ › „Neue Liste …“. Jede Liste
-  steht in Live TV als eigener Eintrag direkt unter „Alle“, mit ihrer Senderzahl. Die Reihenfolge einer Liste
-  änderst du dort mit OK lang › „Position und Nummer“ › „Verschieben“.
+- **Mein Primio:** Oben links, vor „Home“. Dort stehen Erinnerungen, Merkliste, Verlauf und Favoritenlisten, oben
+  in der Spalte „Profil wechseln“. In den Einstellungen gibt es diese Punkte nicht mehr. Den Verlauf löschst du
+  unter Mein Primio › Verlauf.
+- **Favoritenlisten:** Eine neue Liste legst du unter Mein Primio › Favoritenlisten › „Neue Liste“ an; dort
+  verwaltest du auch alle Listen. Im Player öffnet OK auf „Favorit“ immer die Listenwahl, auch bei nur einer Liste,
+  mit „Neue Liste …“. In Live TV: OK lang auf einem Sender › „Favoritenlisten“, dort die Listen und „Neue Liste …“.
+- **Profilfarbe:** Im Hauptprofil Einstellungen › Profile › „Profile verwalten“ › bei deinem Profil „Bearbeiten“ ›
+  „Farbe wechseln“; in einem Profil ohne Verwaltung Einstellungen › Profile › „Mein Profil bearbeiten“ › „Farbe
+  wechseln“. Die Farbe gilt sofort, auch für „Mein Primio“ oben links. Ein neues Profil bekommt seine Farbe gleich
+  beim Anlegen.
+- **Rahmen:** Im Player und in den Fenstern der Einstellungen sind Knöpfe und der Rahmen um das gewählte Element
+  nicht mehr abgeschnitten. Fällt dir noch etwas Abgeschnittenes auf, schreib uns die Stelle.
 - **Im Vollbild aus einer Liste:** Startest du einen Sender aus einer Favoritenliste, bleiben CH+ und CH−, die
   Senderliste mit Links und Zurück in dieser Liste.
 - **Gruppe des Senders:** Auf der Seite einer Liste, bei „Sender hinzufügen“ und im Player steht neben dem Sender
